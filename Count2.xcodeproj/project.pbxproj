@@ -12,6 +12,8 @@
 		80A0BF2F2259E0DB00E253AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80A0BF2D2259E0DB00E253AC /* Main.storyboard */; };
 		80A0BF312259E0DF00E253AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80A0BF302259E0DF00E253AC /* Assets.xcassets */; };
 		80A0BF342259E0DF00E253AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80A0BF322259E0DF00E253AC /* LaunchScreen.storyboard */; };
+		80A0BF3C2259E85A00E253AC /* haikei.png in Resources */ = {isa = PBXBuildFile; fileRef = 80A0BF3B2259E85A00E253AC /* haikei.png */; };
+		80A0BF3E2259EFC400E253AC /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 80A0BF3D2259EFC400E253AC /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		80A0BF302259E0DF00E253AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80A0BF332259E0DF00E253AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80A0BF352259E0DF00E253AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80A0BF3B2259E85A00E253AC /* haikei.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = haikei.png; sourceTree = SOURCE_ROOT; };
+		80A0BF3D2259EFC400E253AC /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				80A0BF292259E0DB00E253AC /* AppDelegate.swift */,
 				80A0BF2B2259E0DB00E253AC /* ViewController.swift */,
 				80A0BF2D2259E0DB00E253AC /* Main.storyboard */,
+				80A0BF3B2259E85A00E253AC /* haikei.png */,
+				80A0BF3D2259EFC400E253AC /* icon.png */,
 				80A0BF302259E0DF00E253AC /* Assets.xcassets */,
 				80A0BF322259E0DF00E253AC /* LaunchScreen.storyboard */,
 				80A0BF352259E0DF00E253AC /* Info.plist */,
@@ -122,6 +128,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80A0BF3C2259E85A00E253AC /* haikei.png in Resources */,
+				80A0BF3E2259EFC400E253AC /* icon.png in Resources */,
 				80A0BF342259E0DF00E253AC /* LaunchScreen.storyboard in Resources */,
 				80A0BF312259E0DF00E253AC /* Assets.xcassets in Resources */,
 				80A0BF2F2259E0DB00E253AC /* Main.storyboard in Resources */,
@@ -283,12 +291,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2DCF374C83;
 				INFOPLIST_FILE = Count2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.litech.Count2;
+				PRODUCT_BUNDLE_IDENTIFIER = "cherryblossom12401-gmail.com";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -300,12 +309,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2DCF374C83;
 				INFOPLIST_FILE = Count2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.litech.Count2;
+				PRODUCT_BUNDLE_IDENTIFIER = "cherryblossom12401-gmail.com";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
